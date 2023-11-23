@@ -1,0 +1,117 @@
+/* Ant Design (antd) overrides */
+/* Apply consistent styles to input elements */
+input {
+  border-radius: 2px !important;
+  border: 1px solid gray !important;
+  height: 40px !important;
+}
+
+/* Remove focus styling from input elements */
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+/* Label styling for forms */
+label {
+  font-size: 17px !important;
+  color: black;
+}
+
+/* Margin adjustment for form items */
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+/* Common Styles */
+
+/* Loading Spinner Styles */
+/* Create a centered loading spinner overlay */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.611);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+/* Styles for the spinning animation */
+.spinner-border {
+  width: 5rem;
+  height: 5rem;
+  color: white !important;
+}
+
+/* Card Component Styles */
+/* Add shadow and remove border radius from cards */
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+
+/* Styling for card titles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Styling for normal text */
+.normal-text {
+  font-size: 1rem;
+}
+
+/* Authentication Form Styles */
+/* Set a fixed width for authentication forms */
+.authentication-form {
+  width: 400px;
+}
+
+/* Primary Button Styles */
+/* Style primary buttons with background color and border color */
+.primary-button {
+  background-color: aquamarine !important;
+  border-color: aquamarine !important;
+  height: 40px;
+  width: 100%;
+  color: blue !important;
+  font-size: 16px !important;
+}
+
+/* Anchor Link Styles */
+.anch {
+  color: black !important;
+  text-decoration: underline;
+  font-size: 16px !important;
+}
+
+/* Hover effect for anchor links */
+.anch:hover {
+  text-decoration: underline !important;
+}
+
+/* Authentication Styles */
+/* Create a centered container for authentication elements */
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for authentication card titles */
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: chartreuse;
+  color: white;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
